@@ -1,0 +1,21 @@
+{
+  "name": "node-express-portfolio-site",
+  "version": "0.0.1",
+  "description": "Node.js Express Portfolio Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Node-Express-Portfolio-Site"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "portfolio",
+    "developer"
+  ],
+  "author": "Admir Bajric",
+  "license": "ISC"
+}
