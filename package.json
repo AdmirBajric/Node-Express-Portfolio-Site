@@ -8,14 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "Node-Express-Portfolio-Site"
+    "url": "https://github.com/AdmirBajric/Node-Express-Portfolio-Site"
   },
   "keywords": [
     "node.js",
     "express",
-    "portfolio",
-    "developer"
+    "portfolio"
   ],
   "author": "Admir Bajric",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
+  }
 }
