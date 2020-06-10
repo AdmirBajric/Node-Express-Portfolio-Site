@@ -2,10 +2,10 @@
   "projects": [
     {
       "id": 0,
-      "project_name": "Random Quote Generator v1",
+      "project_name": "Random Quote Generator",
       "description": "In this project I have created the script.js file that displays random quotes each time the button 'Show another quote' is clicked.",
       "technologies": ["JavaScript", "HTML", "CSS"],
-      "live_link": "",
+      "live_link": "https://admirbajric.github.io/a_random_quote_generator-v1/",
       "github_link": "https://github.com/AdmirBajric/a_random_quote_generator-v1",
       "image_urls": [
         "/static/images/Quotes-550-550.png",
@@ -18,7 +18,7 @@
       "project_name": "List Pagination and Filtering",
       "description": "Using list of students from the HTML file and display 10 students per one page.",
       "technologies": ["JavaScript", "HTML", "CSS"],
-      "live_link": "",
+      "live_link": "https://admirbajric.github.io/List-Pagination-and-Filtering/",
       "github_link": "https://github.com/AdmirBajric/List-Pagination-and-Filtering",
       "image_urls": [
         "/static/images/Pagination-550-550.png",
@@ -31,7 +31,7 @@
       "project_name": "Interactive Form",
       "description": "In this project I have use Javascript to enhance an interactive registration form for a conference called 'Fullstack Conf.'.",
       "technologies": ["JavaScript", "HTML", "CSS"],
-      "live_link": "",
+      "live_link": "https://admirbajric.github.io/Interactive-Form/",
       "github_link": "https://github.com/AdmirBajric/Interactive-Form",
       "image_urls": [
         "/static/images/Form-550-550.png",
@@ -44,7 +44,7 @@
       "project_name": "OOP Game Show App",
       "description": "This project create a browser-based word guessing game, 'Phrase Hunter'.",
       "technologies": ["JavaScript", "HTML", "CSS", "OOP"],
-      "live_link": "",
+      "live_link": "https://admirbajric.github.io/OOP-Game-Show-App/",
       "github_link": "https://github.com/AdmirBajric/OOP-Game-Show-App",
       "image_urls": [
         "/static/images/Phrase-550-550.png",
@@ -64,7 +64,7 @@
         "Asynchronous JavaScript",
         "JSON"
       ],
-      "live_link": "",
+      "live_link": "https://admirbajric.github.io/Public-API-Requests/",
       "github_link": "https://github.com/AdmirBajric/Public-API-Requests",
       "image_urls": [
         "/static/images/API-550-550.png",
