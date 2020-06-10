@@ -50,6 +50,6 @@ app.use((err, req, res, next) => {
 });
 
 // Host app on port
-app.listen(3001, () => {
+app.listen(3000, () => {
   console.log("The application is running on localhost:3000");
 });

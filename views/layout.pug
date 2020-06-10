@@ -4,8 +4,10 @@ html(class="no-js" lang="en" dir="ltr")
     meta(charset='utf-8')
     meta(http-equiv='x-ua-compatible', content='ie=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    title Portfolio Site
-    link(href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet")
+    title My Portfolio
+    link(href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet")
+    link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous")
+    link(rel="icon" href="/static/images/Logo-200-200.png" sizes="16x16")
     link(rel='stylesheet', href='/static/css/foundation.css')
     link(rel='stylesheet', href='/static/css/style.css')
   body
@@ -15,14 +17,17 @@ html(class="no-js" lang="en" dir="ltr")
           br
           .cell.shrink
             img.thumbnail(src='/static/images/Profile-Pic-550-550.jpg')
+            img.logo(src='/static/images/Logo-200-200.png') 
           .cell.auto
+          
             //- Name
             h5 Admir Bajric
             //- Description
             p.text-light
               | Full Stack Javascript Developer
             //- About page
-            a(href='/about') Learn More →
+            a(href='/about') Learn More 
+             i(class="fas fa-arrow-circle-right")
 
     .off-canvas-content(data-off-canvas-content='')
       .title-bar.hide-for-large

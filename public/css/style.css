@@ -4,7 +4,12 @@ h3,
 h4,
 h5,
 p {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  color: #3c3737;
+  text-align: center;
 }
 
 h5 {
@@ -32,14 +37,19 @@ p {
 
 .text-light {
   color: rgb(90, 87, 87);
+  text-align: center;
 }
 
 .button {
-  background-color: #333;
+  background-color: #191818;
+  border-radius: 3px;
+  transition: all 0.3s;
 }
 
 .button:hover {
-  background-color: #111;
+  background-color: rgb(65, 64, 64);
+  transform: scale(1.05);
+  transition: all 0.3s;
 }
 
 a {
@@ -62,7 +72,7 @@ a:hover {
 
 .portfolio-me {
   padding: 20px;
-  background: #121213;
+  background: #191818;
   color: #fff;
   box-shadow: none !important;
 }
@@ -80,10 +90,13 @@ a:hover {
   letter-spacing: 2.5px;
   -webkit-text-transform: uppercase;
   text-transform: uppercase;
+  transition: all 0.4s;
 }
 
 .portfolio-me a:hover {
   color: #999;
+  font-size: 16px;
+  transition: all 0.4s;
 }
 
 .portfolio-breadcrumb {
@@ -99,11 +112,18 @@ a:hover {
   letter-spacing: 2.5px;
   -webkit-text-transform: uppercase;
   text-transform: uppercase;
+  transition: all 0.4s;
+}
+
+.portfolio-breadcrumb a:hover {
+  font-size: 16px;
+  transition: all 0.4s;
 }
 
 .portfolio-intro {
   margin: 0;
   padding: 40px 50px 30px;
+  background-color: #f1efef;
 }
 
 .portfolio-intro p {
@@ -114,6 +134,7 @@ a:hover {
 .portfolio-index {
   margin: 0;
   padding: 10px 50px;
+  background-color: #f7efef;
 }
 
 .portfolio-index .thumbnail {
@@ -137,6 +158,7 @@ a:hover {
 }
 
 .portfolio-meta .button {
+  margin-top: 10px;
   margin-bottom: 5px;
 }
 
@@ -145,10 +167,16 @@ a:hover {
 }
 
 .portfolio-project li {
-  font-size: 13px;
+  font-size: 16px;
   color: #444;
 }
 
 .portfolio-bio {
   line-height: 25px;
+  text-align: center;
+}
+
+.logo {
+  width: 150px;
+  margin-left: 35px;
 }

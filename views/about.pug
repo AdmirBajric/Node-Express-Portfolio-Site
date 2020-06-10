@@ -2,7 +2,8 @@ extends layout.pug
 
 block content 
   nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
+    a(href='/')
+     i(class="fas fa-arrow-circle-left")  Back
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
       .cell.small-6.medium-9.large-9
@@ -14,9 +15,10 @@ block content
         //- Elevator pitch
         .portfolio-bio
           p
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position. 
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position.
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position.
+            | Hello, I am a new developer who loves challenges and is constantly interested in new things. 
+            | The last year I have been dedicated to learning and to change my life. 
+            | I am a student at Team Treehouse’s Full Stack JavaScript Techdegree program.
+            | If you have any questions please contact me.
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Skills
         //- Skills
@@ -41,5 +43,6 @@ block content
         a.button.expanded(href='https://github.com/AdmirBajric', target="_blank") GitHub
         a.button.expanded(href='https://twitter.com/AdmirBajric2', target="_blank") Twitter
   nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
+    a(href='/') 
+     i(class="fas fa-arrow-circle-left")  Back
   

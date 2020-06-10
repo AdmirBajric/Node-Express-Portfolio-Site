@@ -16,7 +16,7 @@
     {
       "id": 1,
       "project_name": "List Pagination and Filtering",
-      "description": "Using list of students from the HTML file and display 10 students per one page.",
+      "description": "Using list of students from the HTML file and display 10 students per one page. Filter the students in the search bar.",
       "technologies": ["JavaScript", "HTML", "CSS"],
       "live_link": "https://admirbajric.github.io/List-Pagination-and-Filtering/",
       "github_link": "https://github.com/AdmirBajric/List-Pagination-and-Filtering",
@@ -29,7 +29,7 @@
     {
       "id": 2,
       "project_name": "Interactive Form",
-      "description": "In this project I have use Javascript to enhance an interactive registration form for a conference called 'Fullstack Conf.'.",
+      "description": "In this project I have use Javascript to enhance an interactive registration form for a conference called 'Fullstack Conf.'",
       "technologies": ["JavaScript", "HTML", "CSS"],
       "live_link": "https://admirbajric.github.io/Interactive-Form/",
       "github_link": "https://github.com/AdmirBajric/Interactive-Form",
